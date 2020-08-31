@@ -4,6 +4,7 @@
     <title>Hachiss</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -156,7 +157,7 @@
 
 
     <!-- メイン -->
-    <div class="container-fluid" style="background-color: #fffffe; padding-top: 90px;">
+    <div style="background-color: #fffffe; padding-top: 85px;">
       <%= yield %>
     </div>
     <!-- メインここまで -->
@@ -189,7 +190,7 @@
             <div class="container py-5">
               <div class="row d-flex ">
                 <div class="col-12 col-md-3 col-sm-6 col-xs-6">
-                  <h6 style="color: #bae8e8;">Hachijo-shop</h6>
+                  <h6 style="color: #bae8e8;">Hachiss</h6>
                   <ul class="list-unstyled">
                     <li><%= link_to "ホーム", root_path, :style=>"color: #fffffe;" %></li>
                     <div class="mt-2"></div>
