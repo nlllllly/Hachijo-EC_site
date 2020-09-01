@@ -1,32 +1,12 @@
-# Hachiss
+# README
 
-## サイト概要
-    八丈島の特産品に特化した「ECサイト」
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-### サイトテーマ
-    地域活性化 × 新しい生活様式
+Things you may want to cover:
 
-### テーマを選んだ理由
-    コロナ禍で消費が落ち込み続けて「新しい生活様式」に変わりつつある中で、
-    自身の地元である「八丈島」を題材に「観光・生産」に関わる方々を主役としたサービスが立ち上げられないかと考えました。
+* Ruby 2.5.7
 
-### ターゲットユーザ
-    「巣ごもり消費」を行うユーザ
-    「オンラインショッピング」を行うユーザ
-    「八丈島」に関心があるユーザ
+* Rails 5.2.4.3
 
-### 主な利用シーン
-    商品の購入
-
-## 設計書
-    
-
-### 機能一覧
-    https://docs.google.com/spreadsheets/d/1n89Qno5A86WRXts-Cy8MhHHvdwWMmVhS5HAvW51SOv4/edit?usp=sharing
-
-## 開発環境
-- OS：Linux(CentOS)
-- 言語：HTML,CSS,JavaScript,Ruby,SQL
-- フレームワーク：Ruby on Rails
-- JSライブラリ：jQuery
-- 仮想環境：Vagrant,VirtualBox
+* Bootstrap4 Setting
