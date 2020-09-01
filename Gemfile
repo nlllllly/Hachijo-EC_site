@@ -87,3 +87,10 @@ gem 'kaminari'
 
 # jp prefecture
 gem 'jp_prefecture'
+
+
+# MySQL
+gem 'dotenv-rails'
+group :production do
+  gem 'mysql2'
+end
