@@ -31,4 +31,6 @@
 /config/master.key
 
 
-/.env
+/.DS_store
+
+/env
